@@ -1,0 +1,17 @@
+{
+    "url": "https://store.steampowered.com/specials",
+    "container": {
+        "name": "store_sale_divs",
+        "selector": "div[class*=y9MSdld4zZCuoQpRVDgMm]",
+        "match": "all",
+        "type": "node"
+    },
+    "items": [
+        {
+            "name": "title",
+            "selector": "div[class*=StoreSaleWidgetTitle]",
+            "match": "first",
+            "type": "text"
+        }
+    ]
+}
