@@ -46,6 +46,12 @@ _config = {
             "type": "text"
         },
         {
+            "name" : "price_currency",
+            "selector": "div[class*=Wh0L8EnwsPV_8VAu8TOYr]",
+            "match": "first",
+            "type": "text"
+        },
+        {
             "name" : "sale_price",
             "selector": "div[class*=Wh0L8EnwsPV_8VAu8TOYr]",
             "match": "first",
